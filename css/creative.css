@@ -10851,7 +10851,10 @@ header.masthead h1 {
 }
 
 .portfolio-modal .modal-dialog {
-  max-width: 60vw;
+  max-width: 75vw;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
 .portfolio-modal .modal-content {
