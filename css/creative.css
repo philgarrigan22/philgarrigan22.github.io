@@ -10566,9 +10566,9 @@ html {
 }
 
 .team-member img {
-  width: 225px;
-  height: 225px;
-  border: 7px solid #fff;
+  width: 220px;
+  height: 245px;
+  border: 1px solid #000;
 }
 
 .team-member h4 {
@@ -10851,12 +10851,11 @@ header.masthead h1 {
 }
 
 .portfolio-modal .modal-dialog {
-  margin: 1rem;
-  max-width: 100vw;
+  max-width: 60vw;
 }
 
 .portfolio-modal .modal-content {
-  padding: 100px 0;
+  padding: 25px 0;
   text-align: center;
 }
 
