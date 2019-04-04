@@ -37,13 +37,13 @@
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto my-2 my-lg-0">
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#about">About</a>
+            <a class="nav-link js-scroll-trigger" href="#about">About Me</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#services">Services</a>
+            <a class="nav-link js-scroll-trigger" href="#services">Skills</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
+            <a class="nav-link js-scroll-trigger" href="#portfolio-agency">Portfolio</a>
           </li>
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
@@ -62,7 +62,15 @@
           <hr class="divider my-4">
         </div>
         <div class="col-lg-8 align-self-baseline">
-          <p class="text-white-75 font-weight-light mb-5">Start Bootstrap can help you build better websites using the Bootstrap framework! Just download a theme and start customizing, no strings attached!</p>
+          <p class="text-white font-weight-light mb-5">Boston Based Software Developer</p>
+          <div class="row justify-content-center">
+            <div class="col-lg-3 col-md-6 text-center">
+              <div class="mt-5">
+                <i class="fas fa-4x fa-file-pdf text-white"></i>
+                <p class="text-white font-weight-bold mb-5"><a class="text-white" href="#" download>Download Resume</a></p>
+              </div>
+            </div>
+          </div>
           <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">Find Out More</a>
         </div>
       </div>
@@ -73,11 +81,18 @@
   <section class="page-section bg-primary" id="about">
     <div class="container">
       <div class="row justify-content-center">
+        <div class="col-sm-4">
+          <div class="team-member">
+            <img class="rounded-circle" src="img/team/me.png" alt="">
+          </div>
+        </div>
+      </div>
+      <div class="row justify-content-center">
         <div class="col-lg-8 text-center">
-          <h2 class="text-white mt-0">We've got what you need!</h2>
+          <h2 class="text-white mt-0">Hi, I'm Phil Garrigan!</h2>
           <hr class="divider light my-4">
-          <p class="text-white-50 mb-4">Start Bootstrap has everything you need to get your new website up and running in no time! Choose one of our open source, free to download, and easy to use themes! No strings attached!</p>
-          <a class="btn btn-light btn-xl js-scroll-trigger" href="#services">Get Started!</a>
+          <p class="text-white-50 mb-4">I'm a Boston based Software Developer. (Still going to update and beef up with more info.)</p>
+          <a class="btn btn-light btn-xl js-scroll-trigger" href="#services">My Skills!</a>
         </div>
       </div>
     </div>
@@ -86,9 +101,13 @@
   <!-- Services Section -->
   <section class="page-section" id="services">
     <div class="container">
-      <h2 class="text-center mt-0">At Your Service</h2>
+      <h2 class="text-center mt-0">Skillset</h2>
       <hr class="divider my-4">
-      <div class="row">
+      <div class="text-center mt-5">
+        <i class="fas fa-4x fa-gem text-primary mb-4"></i>
+        <p class="text-center text-muted mb-0">This will be filled with languages, libraries, etc.</p>
+      </div>
+      <!-- <div class="row">
         <div class="col-lg-3 col-md-6 text-center">
           <div class="mt-5">
             <i class="fas fa-4x fa-gem text-primary mb-4"></i>
@@ -117,167 +136,50 @@
             <p class="text-muted mb-0">Is it really open source if it's not made with love?</p>
           </div>
         </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Portfolio Section -->
-  <section id="portfolio">
-    <div class="container">
-      <h2 class="text-center mt-0">Project Portfolio</h2>
-      <hr class="divider my-4">
-      <div class="text-center mt-5">
-        <p class="text-center text-muted mb-0">This will be filled with languages, libraries, etc.</p>
-      </div>
-      <div class="text-center mt-5">
-      <h2 class="text-center mt-0">Tic Tac Toe</h2>
-      <hr class="divider my-4">
-        <p class="text-center text-muted mb-0">Will fill out with information about Tic Tac Toe and links to the github page and live site.</p>
-      </div>
-      <div class="text-center mt-5">
-      <h2 class="text-center mt-0">Pain in the Task</h2>
-      <hr class="divider my-4">
-        <p class="text-center text-muted mb-0">Will fill out with information about Pain in the Task and links to the github page and live site.</p>
-      </div>
-      <div class="text-center mt-5">
-      <h2 class="text-center mt-0">Project Filler</h2>
-      <hr class="divider my-4">
-        <p class="text-center text-muted mb-0">This will be filled with information about Project Filler and links to the github page and live site.</p>
-      </div>
-      <div class="text-center mt-5 mb-5">
-      <h2 class="text-center mt-0">Project Filler 2</h2>
-      <hr class="divider my-4">
-        <p class="text-center text-muted mb-0">This will be filled with information about Project Filler and links to the github page and live site.</p>
-      </div>
-    </div>
-  </section>
-
-  <!-- Template Portfolio Section -->
-  <section id="portfolioTemplate">
-    <div class="container-fluid p-0">
-      <div class="row no-gutters">
-        <div class="col-lg-4 col-sm-6">
-          <a class="portfolio-link portfolio-box" data-toggle="modal" href="#portfolioModal1">
-            <img class="img-fluid" src="img/portfolio/thumbnails/1.jpg" alt="">
-            <div class="portfolio-box-caption">
-              <div class="project-category text-white-50">
-                Category
-              </div>
-              <div class="project-name">
-                Project Name
-              </div>
-            </div>
-          </a>
-        </div>
-        <div class="col-lg-4 col-sm-6">
-          <a class="portfolio-box" href="img/portfolio/fullsize/2.jpg">
-            <img class="img-fluid" src="img/portfolio/thumbnails/2.jpg" alt="">
-            <div class="portfolio-box-caption">
-              <div class="project-category text-white-50">
-                Category
-              </div>
-              <div class="project-name">
-                Project Name
-              </div>
-            </div>
-          </a>
-        </div>
-        <div class="col-lg-4 col-sm-6">
-          <a class="portfolio-box" href="img/portfolio/fullsize/3.jpg">
-            <img class="img-fluid" src="img/portfolio/thumbnails/3.jpg" alt="">
-            <div class="portfolio-box-caption">
-              <div class="project-category text-white-50">
-                Category
-              </div>
-              <div class="project-name">
-                Project Name
-              </div>
-            </div>
-          </a>
-        </div>
-        <div class="col-lg-4 col-sm-6">
-          <a class="portfolio-box" href="img/portfolio/fullsize/4.jpg">
-            <img class="img-fluid" src="img/portfolio/thumbnails/4.jpg" alt="">
-            <div class="portfolio-box-caption">
-              <div class="project-category text-white-50">
-                Category
-              </div>
-              <div class="project-name">
-                Project Name
-              </div>
-            </div>
-          </a>
-        </div>
-        <div class="col-lg-4 col-sm-6">
-          <a class="portfolio-box" href="img/portfolio/fullsize/5.jpg">
-            <img class="img-fluid" src="img/portfolio/thumbnails/5.jpg" alt="">
-            <div class="portfolio-box-caption">
-              <div class="project-category text-white-50">
-                Category
-              </div>
-              <div class="project-name">
-                Project Name
-              </div>
-            </div>
-          </a>
-        </div>
-        <div class="col-lg-4 col-sm-6">
-          <a class="portfolio-box" href="img/portfolio/fullsize/6.jpg">
-            <img class="img-fluid" src="img/portfolio/thumbnails/6.jpg" alt="">
-            <div class="portfolio-box-caption p-3">
-              <div class="project-category text-white-50">
-                Category
-              </div>
-              <div class="project-name">
-                Project Name
-              </div>
-            </div>
-          </a>
-        </div>
-      </div>
+      </div> -->
     </div>
   </section>
 
   <!-- Agency Portfolio Template -->
   <!-- Portfolio Grid -->
-  <section class="bg-light" id="portfolio-agency">
+  <section class="page-section bg-primary" id="portfolio-agency">
     <div class="container">
       <div class="row">
         <div class="col-lg-12 text-center">
-          <h2 class="section-heading text-uppercase">Portfolio</h2>
-          <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+          <h2 class="text-center mt-0">Portfolio</h2>
+          <hr class="divider my-4">
         </div>
       </div>
       <div class="row">
-        <div class="col-md-4 col-sm-6 portfolio-item">
+        <div class="col-lg-6 col-md-4 col-sm-6 portfolio-item">
           <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
             <div class="portfolio-hover">
               <div class="portfolio-hover-content">
                 <i class="fas fa-plus fa-3x"></i>
               </div>
             </div>
-            <img class="img-fluid" src="img/portfolio/01-thumbnail.jpg" alt="">
+            <img class="img-fluid" src="img/portfolio/tic-tac-toe.png" alt="">
           </a>
           <div class="portfolio-caption">
-            <h4>Threads</h4>
-            <p class="text-muted">Illustration</p>
+            <h4>Tic Tac Toe</h4>
           </div>
         </div>
-        <div class="col-md-4 col-sm-6 portfolio-item">
+        <div class="col-lg-6 col-md-4 col-sm-6 portfolio-item">
           <a class="portfolio-link" data-toggle="modal" href="#portfolioModal2">
             <div class="portfolio-hover">
               <div class="portfolio-hover-content">
                 <i class="fas fa-plus fa-3x"></i>
               </div>
             </div>
-            <img class="img-fluid" src="img/portfolio/02-thumbnail.jpg" alt="">
+            <img class="img-fluid" src="img/portfolio/pain-in-the-task1.png" alt="">
           </a>
           <div class="portfolio-caption">
-            <h4>Explore</h4>
-            <p class="text-muted">Graphic Design</p>
+            <h4>Pain in the Task</h4>
           </div>
         </div>
-        <div class="col-md-4 col-sm-6 portfolio-item">
+      </div>
+      <div class="row">
+        <div class="col-lg-6 col-md-4 col-sm-6 portfolio-item">
           <a class="portfolio-link" data-toggle="modal" href="#portfolioModal3">
             <div class="portfolio-hover">
               <div class="portfolio-hover-content">
@@ -288,10 +190,9 @@
           </a>
           <div class="portfolio-caption">
             <h4>Finish</h4>
-            <p class="text-muted">Identity</p>
           </div>
         </div>
-        <div class="col-md-4 col-sm-6 portfolio-item">
+        <div class="col-lg-6 col-md-4 col-sm-6 portfolio-item">
           <a class="portfolio-link" data-toggle="modal" href="#portfolioModal4">
             <div class="portfolio-hover">
               <div class="portfolio-hover-content">
@@ -302,35 +203,6 @@
           </a>
           <div class="portfolio-caption">
             <h4>Lines</h4>
-            <p class="text-muted">Branding</p>
-          </div>
-        </div>
-        <div class="col-md-4 col-sm-6 portfolio-item">
-          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal5">
-            <div class="portfolio-hover">
-              <div class="portfolio-hover-content">
-                <i class="fas fa-plus fa-3x"></i>
-              </div>
-            </div>
-            <img class="img-fluid" src="img/portfolio/05-thumbnail.jpg" alt="">
-          </a>
-          <div class="portfolio-caption">
-            <h4>Southwest</h4>
-            <p class="text-muted">Website Design</p>
-          </div>
-        </div>
-        <div class="col-md-4 col-sm-6 portfolio-item">
-          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal6">
-            <div class="portfolio-hover">
-              <div class="portfolio-hover-content">
-                <i class="fas fa-plus fa-3x"></i>
-              </div>
-            </div>
-            <img class="img-fluid" src="img/portfolio/06-thumbnail.jpg" alt="">
-          </a>
-          <div class="portfolio-caption">
-            <h4>Window</h4>
-            <p class="text-muted">Photography</p>
           </div>
         </div>
       </div>
@@ -353,14 +225,14 @@
             <div class="col-lg-12">
               <div class="modal-body">
                 <!-- Project Details Go Here -->
-                <h2 class="text-uppercase">Project Name</h2>
-                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                <img class="img-fluid" src="img/portfolio/01-full.jpg" alt="">
-                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                <h2>Tic Tac Toe!</h2>
+                <img class="img-fluid d-block mx-auto" src="img/portfolio/tic-tac-toe.png" alt="">
+                <p>This is a simple browser tic tac toe game. Tic Tac Toe was my first application, built using JavaScript and connected to a pre-built API that was provided to us to authenticate users and store game moves.</p>
                 <ul class="list-inline">
-                  <li>Date: January 2017</li>
-                  <li>Client: Threads</li>
-                  <li>Category: Illustration</li>
+                  <li>Deployed Site: <a href="https://philgarrigan22.github.io/pjg-tic-tac-toe-client" target="_blank">Link<a/>
+                  </li>
+                  <li>GitHub Repo: <a href="https://github.com/philgarrigan22/pjg-tic-tac-toe-client" target="_blank">Link</a>
+                  </li>
                 </ul>
                 <button class="btn btn-primary" data-dismiss="modal" type="button">
                   <i class="fas fa-times"></i>
@@ -387,14 +259,16 @@
             <div class="col-lg-8 mx-auto">
               <div class="modal-body">
                 <!-- Project Details Go Here -->
-                <h2 class="text-uppercase">Project Name</h2>
-                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                <img class="img-fluid d-block mx-auto" src="img/portfolio/02-full.jpg" alt="">
-                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                <h2>Pain in the Task</h2>
+                <img class="img-fluid d-block mx-auto" src="img/portfolio/pain-in-the-task1.png" alt="">
+                <p>I’ve always been someone that’s written down, in some form, my to-do’s and tasks that need to get done.  But let's be honest, nobody actually enjoys doing 90% of the things that we put on a task list. However, that's no reason to be unorganized! Pain in the Task aims to help keep users organized by tracking tasks and to-do's in an effective and visually appealing manner. Tasks can be created, modified, renamed, or deleted and saved instantly. The project is equal parts my drive to stay on task and keep things organized and my obsession of a clean and polished user experience.  Pain in the task is a full-stack single page application, utilizing JavaScript, Ruby, A Ruby on Rails back-end API, and MaterializeCSS, among others. </p>
                 <ul class="list-inline">
-                  <li>Date: January 2017</li>
-                  <li>Client: Explore</li>
-                  <li>Category: Graphic Design</li>
+                  <li>Deployed Site: <a href="https://philgarrigan22.github.io/pjg-tic-tac-toe-client" target="_blank">Link<a/>
+                  </li>
+                  <li>GitHub Front-End Repo: <a href="https://philgarrigan22.github.io/Pain-in-the-Task-client/" target="_blank">Link</a>
+                  </li>
+                  <li>GitHub Back-End Repo: <a href="https://github.com/philgarrigan22/Pain-in-the-Task-API" target="_blank">Link</a>
+                  </li>
                 </ul>
                 <button class="btn btn-primary" data-dismiss="modal" type="button">
                   <i class="fas fa-times"></i>
@@ -475,81 +349,13 @@
     </div>
   </div>
 
-  <!-- Modal 5 -->
-  <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="close-modal" data-dismiss="modal">
-          <div class="lr">
-            <div class="rl"></div>
-          </div>
-        </div>
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-8 mx-auto">
-              <div class="modal-body">
-                <!-- Project Details Go Here -->
-                <h2 class="text-uppercase">Project Name</h2>
-                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                <img class="img-fluid d-block mx-auto" src="img/portfolio/05-full.jpg" alt="">
-                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                <ul class="list-inline">
-                  <li>Date: January 2017</li>
-                  <li>Client: Southwest</li>
-                  <li>Category: Website Design</li>
-                </ul>
-                <button class="btn btn-primary" data-dismiss="modal" type="button">
-                  <i class="fas fa-times"></i>
-                  Close Project</button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- Modal 6 -->
-  <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="close-modal" data-dismiss="modal">
-          <div class="lr">
-            <div class="rl"></div>
-          </div>
-        </div>
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-8 mx-auto">
-              <div class="modal-body">
-                <!-- Project Details Go Here -->
-                <h2 class="text-uppercase">Project Name</h2>
-                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                <img class="img-fluid d-block mx-auto" src="img/portfolio/06-full.jpg" alt="">
-                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                <ul class="list-inline">
-                  <li>Date: January 2017</li>
-                  <li>Client: Window</li>
-                  <li>Category: Photography</li>
-                </ul>
-                <button class="btn btn-primary" data-dismiss="modal" type="button">
-                  <i class="fas fa-times"></i>
-                  Close Project</button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
   <!-- Call to Action Section -->
-  <section class="page-section bg-dark text-white">
+  <!-- <section class="page-section bg-dark text-white">
     <div class="container text-center">
       <h2 class="mb-4">Free Download at Start Bootstrap!</h2>
       <a class="btn btn-light btn-xl" href="https://startbootstrap.com/themes/creative/">Download Now!</a>
     </div>
-  </section>
+  </section> -->
 
   <!-- Contact Section -->
   <section class="page-section" id="contact">
@@ -558,18 +364,28 @@
         <div class="col-lg-8 text-center">
           <h2 class="mt-0">Let's Get In Touch!</h2>
           <hr class="divider my-4">
-          <p class="text-muted mb-5">Ready to start your next project with us? Give us a call or send us an email and we will get back to you as soon as possible!</p>
+          <p class="text-muted mb-5">Filler text to be updated with more robust contact section.</p>
         </div>
       </div>
-      <div class="row">
-        <div class="col-lg-4 ml-auto text-center">
-          <i class="fas fa-phone fa-3x mb-3 text-muted"></i>
-          <div>+1 (202) 555-0149</div>
+      <div class="row justify-content-center">
+        <div class="col-lg-2 text-center">
+          <i class="fa fa-phone fa-3x sr-contact"></i>
+          <p>xxx-xxx-xxx</p>
         </div>
-        <div class="col-lg-4 mr-auto text-center">
-          <i class="fas fa-envelope fa-3x mb-3 text-muted"></i>
-          <!-- Make sure to change the email address in anchor text AND the link below! -->
-          <a class="d-block" href="mailto:contact@yourwebsite.com">contact@yourwebsite.com</a>
+        <div class="col-lg-2 text-center">
+          <a href="#">
+            <i class="fas fa-4x fa-envelope"></i>
+          </a>
+        </div>
+        <div class="col-lg-2 text-center">
+          <a href="#" target="_blank">
+            <i class="fab fa-linkedin fa-4x"></i
+          </a>
+        </div>
+        <div class="col-lg-2 text-center">
+          <a href="#" target="_blank">
+            <i class="fab fa-github fa-4x"></i>
+          </a>
         </div>
       </div>
     </div>
@@ -578,7 +394,7 @@
   <!-- Footer -->
   <footer class="bg-light py-5">
     <div class="container">
-      <div class="small text-center text-muted">Copyright &copy; 2019 - Start Bootstrap</div>
+      <!-- <div class="small text-center text-muted">Copyright &copy; 2019 - Start Bootstrap</div> -->
     </div>
   </footer>
 
