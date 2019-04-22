@@ -9,8 +9,11 @@ header.masthead {
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: cover;
+  height: 100vh;
   h1 {
-    font-size: 2.25rem;
+    font-size: 5rem;
+    font-family: 'Varela Round', sans-serif;
+    color: rgba(255, 255, 255, 0.7);
   }
   @include media-breakpoint-up(lg) {
     height: 100vh;
@@ -21,12 +24,12 @@ header.masthead {
       font-size: 1.15rem;
     }
     h1 {
-      font-size: 3rem;
+      font-size: 5.5rem;
     }
   }
   @include media-breakpoint-up(xl) {
     h1 {
-      font-size: 3.5rem;
+      font-size: 6rem;
     }
   }
 }

@@ -10566,9 +10566,9 @@ html {
 }
 
 .team-member img {
-  width: 220px;
-  height: 245px;
-  border: 1px solid #000;
+  width: 260px;
+  height: 290px;
+  border: 1px;
 }
 
 .team-member h4 {
@@ -10692,10 +10692,13 @@ header.masthead {
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: cover;
+  height: 100vh;
 }
 
 header.masthead h1 {
-  font-size: 2.25rem;
+  font-size: 5rem;
+  font-family: 'Varela Round', sans-serif;
+  color: rgba(255, 255, 255, 0.7);
 }
 
 @media (min-width: 992px) {
@@ -10709,13 +10712,13 @@ header.masthead h1 {
     font-size: 1.15rem;
   }
   header.masthead h1 {
-    font-size: 3rem;
+    font-size: 5.5rem;
   }
 }
 
 @media (min-width: 1200px) {
   header.masthead h1 {
-    font-size: 3.5rem;
+    font-size: 6rem;
   }
 }
 
