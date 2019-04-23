@@ -10608,13 +10608,29 @@ hr.light {
   padding: 5rem 0;
 }
 
-.skill-symbol-box {
-  padding: 10px;
-  margin-bottom: 15px;
+.devicon-list {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
-.skill-symbol {
-  width: auto;
+.devicon-list > div {
+  margin: 1rem 0;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .devicon-list > div {
+    width: 100px;
+    margin: 2rem;
+    text-align: center;
+  }
 }
 
 #mainNav {

@@ -58,10 +58,21 @@ hr.light {
 }
 
 // Skill Icons
-.skill-symbol-box {
-  padding: 10px;
-  margin-bottom: 15px;
+.devicon-list {
+  align-items: center;
+  display: flex;
+  justify-content: center;
 }
-.skill-symbol {
-  width: auto;
+
+.devicon-list > div {
+  margin: 1rem 0;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .devicon-list > div {
+    width: 100px;
+    margin: 2rem;
+    text-align: center;
+  }
 }
