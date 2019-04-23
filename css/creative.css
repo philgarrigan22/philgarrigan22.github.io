@@ -10614,7 +10614,7 @@ hr.light {
 }
 
 .skill-symbol {
-  font-size: 100px;
+  width: auto;
 }
 
 #mainNav {
@@ -10701,7 +10701,6 @@ header.masthead {
 }
 
 header.masthead h1 {
-  font-size: 5rem;
   font-family: 'Varela Round', sans-serif;
   color: rgba(255, 255, 255, 0.7);
 }
@@ -10724,6 +10723,18 @@ header.masthead h1 {
 @media (min-width: 1200px) {
   header.masthead h1 {
     font-size: 6rem;
+  }
+}
+
+@media (min-width: 768px) {
+  header.masthead h1 {
+    font-size: 5rem;
+  }
+}
+
+@media (max-width: 767.98px) {
+  header.masthead h1 {
+    font-size: 3rem;
   }
 }
 
