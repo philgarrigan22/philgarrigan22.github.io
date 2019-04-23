@@ -6293,7 +6293,7 @@ a.close.disabled {
 
 @media (min-width: 576px) {
   .modal-dialog {
-    max-width: 500px;
+    max-width: 900px;
     margin: 1.75rem auto;
   }
   .modal-dialog-scrollable {
@@ -10859,7 +10859,6 @@ header.masthead h1 {
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
-  width: 75%;
 }
 
 .portfolio-modal .modal-content {
