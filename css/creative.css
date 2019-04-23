@@ -10621,14 +10621,30 @@ hr.light {
 }
 
 .devicon-list > div {
-  margin: 1rem 0;
+  margin: 2rem;
   text-align: center;
+}
+
+@media (max-width: 1200px) {
+  .devicon-list > div {
+    width: 100px;
+    margin: 1.5rem;
+    text-align: center;
+  }
+}
+
+@media (max-width: 992px) {
+  .devicon-list > div {
+    width: 100px;
+    margin: 1.5rem .5rem;
+    text-align: center;
+  }
 }
 
 @media (max-width: 768px) {
   .devicon-list > div {
     width: 100px;
-    margin: 2rem;
+    margin: 1.5rem 1rem;
     text-align: center;
   }
 }
