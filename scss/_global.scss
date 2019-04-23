@@ -6,22 +6,19 @@ html {
 }
 
 // About section
-.team-member {
-  margin-bottom: 50px;
-  text-align: center;
-  img {
-    width: 260px;
-    height: 290px;
-    border: 1px;
-  }
-  h4 {
-    margin-top: 25px;
-    margin-bottom: 0;
-    text-transform: none;
-  }
-  p {
-    margin-top: 0;
-  }
+.about-picture{
+  background-image: url(../img/team/me.png);
+  background-size: cover;
+  background-position: center;
+  border-radius: 50%;
+  box-shadow: 5px 20px 5px 0 rgba(0, 0, 0, 0.2), 15px 20px 20px 0 rgba(0, 0, 0, 0.19);
+  height: 39vh;
+  margin: 2rem auto;
+  width: 37vh;
+}
+
+.about-text {
+  font-size: 1.2rem;
 }
 
 // Typography

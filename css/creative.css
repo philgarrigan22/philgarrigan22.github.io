@@ -10560,25 +10560,20 @@ html {
   height: 100%;
 }
 
-.team-member {
-  margin-bottom: 50px;
-  text-align: center;
+.about-picture {
+  background-image: url(../img/team/me.png);
+  background-size: cover;
+  background-position: center;
+  border-radius: 50%;
+  -webkit-box-shadow: 5px 20px 5px 0 rgba(0, 0, 0, 0.2), 15px 20px 20px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: 5px 20px 5px 0 rgba(0, 0, 0, 0.2), 15px 20px 20px 0 rgba(0, 0, 0, 0.19);
+  height: 39vh;
+  margin: 2rem auto;
+  width: 37vh;
 }
 
-.team-member img {
-  width: 260px;
-  height: 290px;
-  border: 1px;
-}
-
-.team-member h4 {
-  margin-top: 25px;
-  margin-bottom: 0;
-  text-transform: none;
-}
-
-.team-member p {
-  margin-top: 0;
+.about-text {
+  font-size: 1.2rem;
 }
 
 .text-white-75 {
