@@ -10608,10 +10608,6 @@ hr.light {
   padding: 5rem 0;
 }
 
-.portfolio-section {
-  padding: 2rem 0;
-}
-
 .devicon-list {
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -10937,8 +10933,8 @@ header.masthead h1 {
   background-color: #212529;
 }
 
-@media (max-width: 768px) {
-  #portfolio-agency .modal-dialog {
-    width: 90%;
+@media (min-width: 576px) {
+  .modal-dialog {
+    max-width: 900px;
   }
 }
