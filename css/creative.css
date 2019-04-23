@@ -10608,6 +10608,10 @@ hr.light {
   padding: 5rem 0;
 }
 
+.portfolio-section {
+  padding: 2rem 0;
+}
+
 .devicon-list {
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -10855,6 +10859,7 @@ header.masthead h1 {
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
+  width: 75%;
 }
 
 .portfolio-modal .modal-content {
@@ -10888,6 +10893,8 @@ header.masthead h1 {
   -ms-flex-pack: center;
   justify-content: center;
   width: 100%;
+  -webkit-box-shadow: 5px 20px 5px 0 rgba(0, 0, 0, 0.2), 15px 20px 20px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: 5px 20px 5px 0 rgba(0, 0, 0, 0.2), 15px 20px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .portfolio-modal .modal-content button {
@@ -10929,4 +10936,10 @@ header.masthead h1 {
   -webkit-transform: rotate(90deg);
   transform: rotate(90deg);
   background-color: #212529;
+}
+
+@media (max-width: 768px) {
+  #portfolio-agency .modal-dialog {
+    width: 90%;
+  }
 }
