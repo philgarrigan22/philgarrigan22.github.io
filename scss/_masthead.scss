@@ -4,7 +4,7 @@ header.masthead {
   padding-bottom: calc(10rem - #{$navbar-height});
   // replace the masthead.jpg image in the /img directory to change the image
   // if the image name change, make sure to update the url path below!
-  background: linear-gradient(to bottom, #{fade-out($brown, .7)} 0%,#{fade-out($brown, .7)} 100%), url('../img/pat-kay-1380644-unsplash.jpg');
+  background: url('../img/colorado.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -12,7 +12,12 @@ header.masthead {
   height: 100vh;
   h1 {
     font-family: 'Varela Round', sans-serif;
-    color: rgba(255, 255, 255, 0.7);
+    color: $white;
+    text-shadow: 5px 5px 3px $dark;
+  }
+  p {
+    color: $dark;
+    text-shadow: 5px 5px 3px $dark;
   }
   @include media-breakpoint-up(lg) {
     height: 100vh;
