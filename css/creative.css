@@ -10575,6 +10575,11 @@ html {
 .about-text {
   font-size: 1.2rem;
   padding-bottom: 1rem;
+  text-shadow: 2px 2px 1px #343a40;
+}
+
+.about-header {
+  text-shadow: 2px 2px 1px #343a40;
 }
 
 .text-white-75 {
@@ -10660,15 +10665,18 @@ hr.light {
 #mainNav .navbar-brand {
   font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 700;
-  color: #212529;
+  color: #343a40;
+  text-shadow: 5px 5px 3px #fff;
+  font-size: 1.75rem;
 }
 
 #mainNav .navbar-nav .nav-item .nav-link {
-  color: #6c757d;
+  color: #343a40;
   font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 700;
-  font-size: 0.9rem;
+  font-size: 1.25rem;
   padding: 0.75rem 0;
+  text-shadow: 5px 5px 3px #fff;
 }
 
 #mainNav .navbar-nav .nav-item .nav-link:hover, #mainNav .navbar-nav .nav-item .nav-link:active {
@@ -10686,17 +10694,17 @@ hr.light {
     background-color: transparent;
   }
   #mainNav .navbar-brand {
-    color: rgba(255, 255, 255, 0.7);
+    color: #343a40;
   }
   #mainNav .navbar-brand:hover {
-    color: #fff;
+    color: #17a2b8;
   }
   #mainNav .navbar-nav .nav-item .nav-link {
-    color: rgba(255, 255, 255, 0.7);
+    color: #343a40;
     padding: 0 1rem;
   }
   #mainNav .navbar-nav .nav-item .nav-link:hover {
-    color: #fff;
+    color: #17a2b8;
   }
   #mainNav .navbar-nav .nav-item:last-child .nav-link {
     padding-right: 0;
@@ -10723,8 +10731,7 @@ hr.light {
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 72px);
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(92, 77, 66, 0.3)), to(rgba(92, 77, 66, 0.3))), url("../img/pat-kay-1380644-unsplash.jpg");
-  background: linear-gradient(to bottom, rgba(92, 77, 66, 0.3) 0%, rgba(92, 77, 66, 0.3) 100%), url("../img/pat-kay-1380644-unsplash.jpg");
+  background: url("../img/colorado.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -10734,7 +10741,13 @@ header.masthead {
 
 header.masthead h1 {
   font-family: 'Varela Round', sans-serif;
-  color: rgba(255, 255, 255, 0.7);
+  color: #fff;
+  text-shadow: 5px 5px 3px #343a40;
+}
+
+header.masthead p {
+  color: #343a40;
+  text-shadow: 5px 5px 3px #343a40;
 }
 
 @media (min-width: 992px) {

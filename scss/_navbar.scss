@@ -6,16 +6,19 @@
   .navbar-brand {
     font-family: $font-family-sans-serif;
     font-weight: $font-weight-bold;
-    color: $gray-900;
+    color: $dark;
+    text-shadow: 5px 5px 3px $white;
+    font-size: 1.75rem;
   }
   .navbar-nav {
     .nav-item {
       .nav-link {
-        color: $gray-600;
+        color: $dark;
         font-family: $font-family-sans-serif;
         font-weight: $font-weight-bold;
-        font-size: 0.9rem;
+        font-size: 1.25rem;
         padding: 0.75rem 0;
+        text-shadow: 5px 5px 3px $white;
         &:hover,
         &:active {
           color: $primary;
@@ -31,18 +34,18 @@
     box-shadow: none;
     background-color: transparent;
     .navbar-brand {
-      color: fade-out($white, .3);
+      color: $dark;
       &:hover {
-        color: $white;
+        color: $primary;
       }
     }
     .navbar-nav {
       .nav-item {
         .nav-link {
-          color: fade-out($white, .3);
+          color: $dark;
           padding: 0 1rem;
           &:hover {
-            color: $white;
+            color: $primary;
           }
         }
         &:last-child {
