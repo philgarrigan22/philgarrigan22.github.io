@@ -7,7 +7,7 @@
     font-family: $font-family-sans-serif;
     font-weight: $font-weight-bold;
     color: $dark;
-    text-shadow: 5px 5px 3px $white;
+    text-shadow: 2px 2px 1px $white;
     font-size: 1.75rem;
   }
   .navbar-nav {
@@ -18,7 +18,7 @@
         font-weight: $font-weight-bold;
         font-size: 1.25rem;
         padding: 0.75rem 0;
-        text-shadow: 5px 5px 3px $white;
+        text-shadow: 2px 2px 1px $white;
         &:hover,
         &:active {
           color: $primary;

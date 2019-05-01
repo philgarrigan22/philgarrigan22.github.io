@@ -10575,11 +10575,11 @@ html {
 .about-text {
   font-size: 1.2rem;
   padding-bottom: 1rem;
-  text-shadow: 2px 2px 1px #343a40;
+  color: #343a40;
 }
 
 .about-header {
-  text-shadow: 2px 2px 1px #343a40;
+  color: #343a40;
 }
 
 .text-white-75 {
@@ -10666,7 +10666,7 @@ hr.light {
   font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 700;
   color: #343a40;
-  text-shadow: 5px 5px 3px #fff;
+  text-shadow: 2px 2px 1px #fff;
   font-size: 1.75rem;
 }
 
@@ -10676,7 +10676,7 @@ hr.light {
   font-weight: 700;
   font-size: 1.25rem;
   padding: 0.75rem 0;
-  text-shadow: 5px 5px 3px #fff;
+  text-shadow: 2px 2px 1px #fff;
 }
 
 #mainNav .navbar-nav .nav-item .nav-link:hover, #mainNav .navbar-nav .nav-item .nav-link:active {
