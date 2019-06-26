@@ -38,6 +38,10 @@ hr.light {
   border-color: $white;
 }
 
+hr.dark {
+  border-color: $black;
+}
+
 // Button restyling
 .btn {
   font-family: $font-family-sans-serif;
